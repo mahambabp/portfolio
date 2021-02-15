@@ -44,12 +44,12 @@ export default function ContactUs() {
       </h2>
       <Container>
         <Row>
-          <Col sm={8}>
-            <div className="container text  col-8 ">
+          <Col sm={6}>
+            <div className="container text  col-12 ">
               <form onSubmit={sendEmail}>
                 <div className="row pt-5 mx-auto">
                   <div className="col-8 form-group mx-auto">
-                  <h4 className="text-center">Mail Me</h4>
+                    <h4 className="text-center">Mail Me</h4>
                     <input
                       type="text"
                       className="form-control"
@@ -94,7 +94,8 @@ export default function ContactUs() {
               </form>
             </div>
           </Col>
-          <Col sm={4}>
+
+          <Col sm={6}>
             <Card style={{ width: "18rem" }} className="mt-5">
               <Card.Body>
                 <Card.Title>
@@ -117,20 +118,23 @@ export default function ContactUs() {
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }} className="mt-5">
-        <Card.Body>
-          <Card.Title>
-            <h4 style={cardStyle}>Let's Chat</h4>
-          </Card.Title>
-          <Card.Text>
-            <Link href="https://github.com/mahambabp/"style={cardStyle}>
-              <GitHubIcon />
-            </Link>
-            <Link href="https://www.linkedin.com/in/bafana-mahamba-5858a3156/"style={cardStyle}>
-              <LinkedInIcon />
-            </Link>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+              <Card.Body>
+                <Card.Title>
+                  <h4 style={cardStyle}>Let's Chat</h4>
+                </Card.Title>
+                <Card.Text>
+                  <Link href="https://github.com/mahambabp/" style={cardStyle}>
+                    <GitHubIcon />
+                  </Link>
+                  <Link
+                    href="https://www.linkedin.com/in/bafana-mahamba-5858a3156/"
+                    style={cardStyle}
+                  >
+                    <LinkedInIcon />
+                  </Link>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>

@@ -8,18 +8,21 @@ import InfoIcon from '@material-ui/icons/Info';
 //Landing Page
 const Index = () => (
   <Layout>
+
     <Jumbotron fluid>
       <Container>
         <div className="container text-center">
-          <h2 className="text-dark display-5">Hello, I'm Bafana Mahamba,I am a Full Stack Web Developer, Living in Johannesburg, ZA
-		  </h2>
-          <small className="text-muted">A MERN stack Developer</small>
+          <h2 className="text-muted display-5">
+            Hello, I'm Bafana Mahamba,I am a Full Stack Web Developer, Living in
+            Johannesburg, ZA
+          </h2>
+          <small className="text-success">A MERN stack Developer</small>
         </div>
       </Container>
       <div className="container text-center">
         <Link href="/about">
           <Button className=" btn-sm" variant="dark">
-			<InfoIcon />
+            <InfoIcon className="text-success"/>
           </Button>
         </Link>
       </div>

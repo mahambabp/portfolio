@@ -15,9 +15,13 @@ const AboutMe = () => (
         src="/static/images/Bafana.PNG/"
         alt="my Image"
       />
+    </Media>
+    <Media>
+
+
       <Media.Body>
         <h4>Brief</h4>
-        <p className="Lead ">
+        <div className="Lead ">
           <p className="text-info">Technologies/Skills</p>
           <div>
             <Badge variant="primary">React</Badge>{" "}
@@ -30,13 +34,13 @@ const AboutMe = () => (
             <Badge variant="light">Authentication with JWT</Badge>{" "}
             <Badge variant="dark">Github</Badge>
           </div>
-        </p>
+        </div>
         <p className="Lead">
           I am Full Stack Web Developer detail oriented ,organized, a problem
           solver. A huge fan of everything IT. I am always available to discuss
           your project you interested in building and need assistance in. These
-          Days I am interested in learning minimalistic applications with a focus in the
-          user experience.
+          Days I am interested in learning minimalistic applications with a
+          focus in the user experience.
         </p>
         <Link href="/contact">
           <button type="button" className="btn btn-dark m-2">
@@ -49,7 +53,7 @@ const AboutMe = () => (
           </button>
         </Link>
       </Media.Body>
-    </Media>
+      </Media>
   </div>
 );
 
