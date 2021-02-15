@@ -17,8 +17,6 @@ const AboutMe = () => (
       />
     </Media>
     <Media>
-
-
       <Media.Body>
         <h4>Brief</h4>
         <div className="Lead ">
@@ -36,15 +34,15 @@ const AboutMe = () => (
           </div>
         </div>
         <p className="Lead">
-          I am Full Stack Web Developer detail oriented ,organized, a problem
-          solver. A huge fan of everything IT. I am always available to discuss
-          your project you interested in building and need assistance in. These
-          Days I am interested in learning minimalistic applications with a
-          focus in the user experience.
+          I am Full Stack Web Developer, detail oriented ,organized and a
+          problem solver. An ardent follower of technology. I am always
+          available to discuss projects that might be of interest to you and may
+          need assistance in. These Days I am interested in learning to design, create and deploy
+          minimalistic applications with a focus in the user experience.
         </p>
         <Link href="/contact">
           <button type="button" className="btn btn-dark m-2">
-            Hire Me
+            Reach me
           </button>
         </Link>
         <Link href="/static/files/BafanaMahambaCV.pdf">
@@ -53,7 +51,7 @@ const AboutMe = () => (
           </button>
         </Link>
       </Media.Body>
-      </Media>
+    </Media>
   </div>
 );
 

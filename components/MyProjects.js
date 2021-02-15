@@ -62,6 +62,22 @@ const MyProjects = () => (
           </Card.Body>
         </Card>
       </div>
+      <div className="col align-self-center bg-secondary m-2">
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Title>StarWars API</Card.Title>
+            <Card.Text>Star wars API, Built using Next.js</Card.Text>
+            <Link href="https://github.com/mahambabp/starWarsApp.git">
+              <Button variant="secondary ">Github-Source</Button>
+            </Link>
+            <Link href="http://star-wars-api-git-master.mahambabp.vercel.app/">
+              <Button className="m-2" variant="success">
+                Deployed site
+              </Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   </div>
 );
