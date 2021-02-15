@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport ResumeComp from '../components/ResumeComp';\nimport Layout from \"../components/MyLayout\"; //Resume page\n\nconst Resume = () => /*#__PURE__*/_jsx(Layout, {\n  children: /*#__PURE__*/_jsx(ResumeComp, {})\n});\n\nexport default Resume;","map":null,"metadata":{},"sourceType":"module"}
