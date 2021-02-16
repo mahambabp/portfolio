@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Media, Badge } from "react-bootstrap";
+import { Row,Col, Badge } from "react-bootstrap";
 
 //About me commponent
 const AboutMe = () => (
@@ -7,7 +7,8 @@ const AboutMe = () => (
     <h2 className="display-5 text-secondary shadow p-3  bg-white rounded">
       About me
     </h2>
-    <Media className="mt-0">
+    <Row className="mt-5">
+      <Col md="6">
       <img
         width={480}
         height={300}
@@ -15,9 +16,8 @@ const AboutMe = () => (
         src="/static/images/Bafana.PNG/"
         alt="my Image"
       />
-    </Media>
-    <Media>
-      <Media.Body>
+      </Col>
+      <Col md="6">
         <h4>Brief</h4>
         <div className="Lead ">
           <p className="text-info">Technologies/Skills</p>
@@ -50,8 +50,8 @@ const AboutMe = () => (
             Download CV
           </button>
         </Link>
-      </Media.Body>
-    </Media>
+        </Col>
+    </Row>
   </div>
 );
 

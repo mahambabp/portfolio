@@ -43,7 +43,7 @@ export default function ContactUs() {
         Contact Me
       </h2>
       <Container>
-        <Row>
+        <Row className="mt-5">
           <Col sm={6}>
             <div className="container text  col-12 ">
               <form onSubmit={sendEmail}>

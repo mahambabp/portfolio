@@ -36,6 +36,12 @@ const Navbar = () => (
         </ul>
       </div>
     </div>
+
+    <style jsx>{`
+      li {
+        font-size: 20px;
+      }
+    `}</style>
   </nav>
 );
 
