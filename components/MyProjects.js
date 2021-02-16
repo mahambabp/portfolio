@@ -9,75 +9,94 @@ const MyProjects = () => (
       Projects
     </h2>
     <div className="row">
-      <div className="col align-self-center bg-dark m-2">
+      <div className="col align-self-center bg-secondary m-3">
         <Card style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title>Minesweeper</Card.Title>
             <Card.Text>Minesweeper, built with react.</Card.Text>
             <Link href="https://github.com/mahambabp/minesweeper-react.git">
-              <Button variant="dark">Github-source code</Button>
+              <Button variant="secondary">Source-Code</Button>
             </Link>
             <Link href="https://evening-peak-00237.herokuapp.com/">
               <Button className="m-2" variant="success">
-                Deployed site
+                Active
               </Button>
             </Link>
           </Card.Body>
         </Card>
       </div>
-      <div className="col align-self-center bg-secondary m-2">
-        <Card style={{ width: "18rem" }}>
-          <Card.Body>
-            <Card.Title>Shopping Cart</Card.Title>
-            <Card.Text>Shopping cart buit using javascript</Card.Text>
-            <Link href="https://github.com/mahambabp/Javascript-Shopping-Cart">
-              <Button variant="secondary ">Github-Source</Button>
-            </Link>
-          </Card.Body>
-        </Card>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col align-self-center bg-dark m-2">
-        <Card style={{ width: "18rem" }}>
-          <Card.Body>
-            <Card.Title>ITunes Search Api</Card.Title>
-            <Card.Text>
-              An application that interfaces with the iTunes Searc API:.
-            </Card.Text>
-            <Link href="https://github.com/mahambabp/iTunes-Search-Api">
-              <Button variant="dark">Github-source code</Button>
-            </Link>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="col align-self-center bg-secondary m-2">
-        <Card style={{ width: "18rem" }}>
-          <Card.Body>
-            <Card.Title>HTML website</Card.Title>
-            <Card.Text>Shopping cart buit using javascript</Card.Text>
-            <Link href="https://github.com/mahambabp/HTMLsite">
-              <Button variant="secondary ">Github-Source</Button>
-            </Link>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="col align-self-center bg-secondary m-2">
+
+      <div className="col align-self-center bg-secondary m-3">
         <Card style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title>StarWars API</Card.Title>
             <Card.Text>Star wars API, Built using Next.js</Card.Text>
             <Link href="https://github.com/mahambabp/starWarsApp.git">
-              <Button variant="secondary ">Github-Source</Button>
+              <Button variant="secondary ">Source-Code</Button>
             </Link>
             <Link href="http://star-wars-api-git-master.mahambabp.vercel.app/">
               <Button className="m-2" variant="success">
-                Deployed site
+                Active
               </Button>
             </Link>
           </Card.Body>
         </Card>
       </div>
+
+      <div className="col align-self-center bg-secondary m-3">
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Title>Shopping Cart</Card.Title>
+            <Card.Text>Shopping cart buit using javascript</Card.Text>
+            <Link href="https://github.com/mahambabp/Javascript-Shopping-Cart">
+              <Button variant="secondary ">Source-Code</Button>
+            </Link>
+            <Link href="#">
+              <Button className="m-2" variant="warning">
+                Pending 
+              </Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col align-self-center bg-secondary m-3">
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Title>ITunes Search Api</Card.Title>
+            <Card.Text>
+               iTunes Search API, built with React
+            </Card.Text>
+            <Link href="#">
+              <Button variant="secondary">Source-Code</Button>
+            </Link>
+            <Link href="#">
+              <Button className="m-2" variant="warning">
+                Pending
+              </Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
+
+      <div className="col align-self-center bg-secondary m-3">
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Title>HTML website</Card.Title>
+            <Card.Text>Website built using HTML,CSS and JS</Card.Text>
+            <Link href="https://github.com/mahambabp/HTMLsite">
+              <Button variant="secondary ">Source-Code</Button>
+            </Link>
+            <Link href="#">
+              <Button className="m-2" variant="warning ">Pending</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+      </div>
+      
+ 
     </div>
   </div>
 );
