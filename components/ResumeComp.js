@@ -4,10 +4,8 @@ import { Accordion, Card, Button, Badge } from "react-bootstrap"
 //CV component 
 const ResumeComp = () => (
   <div className="container ">
-    <h2 className="display-5 text-secondary shadow p-3  bg-white rounded">
-      Resume
-    </h2>
-    <Accordion >
+    <h2 className="display-5 text-dark shadow p-3  bg-white rounded">Resume</h2>
+    <Accordion>
       <Card>
         <Card.Header>
           <Accordion.Toggle as={Button} variant="link" eventKey="0">

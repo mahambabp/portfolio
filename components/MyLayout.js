@@ -9,7 +9,7 @@ const Layout = (props) => (
       <title>Bafanarelated</title>
       <link
         rel="stylesheet"
-        href="https://bootswatch.com/4/darkly/bootstrap.min.css"
+        href="https://bootswatch.com/4/lux/bootstrap.min.css"
       />
     </Head>
     <div>
