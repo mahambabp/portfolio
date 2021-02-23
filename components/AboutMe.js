@@ -18,23 +18,24 @@ const AboutMe = () => (
         />
       </Col>
       <Col md="6">
-        <h4>Brief</h4>
+        <h4 >Brief</h4>
         <div className="Lead ">
-          <p className="text-info">Technologies/Skills</p>
+          <p className="text-success"><b>Technologies/Skills</b></p>
           <div>
-            <Badge variant="primary">React</Badge>{" "}
-            <Badge variant="secondary">Next.js</Badge>{" "}
+            <Badge variant="info">React</Badge>{" "}
+            <Badge variant="primary">Next.js</Badge>{" "}
             <Badge variant="success">MongoDB/Mongoose</Badge>{" "}
             <Badge variant="success">Node.js/Express</Badge>{" "}
             <Badge variant="danger">Git</Badge>{" "}
             <Badge variant="warning">Javascript/Jquery</Badge>{" "}
-            <Badge variant="info">Agile Development</Badge>{" "}
-            <Badge variant="light">Authentication with JWT</Badge>{" "}
+            <Badge variant="dark">Agile Development</Badge>{" "}
+            <Badge variant="info">Authentication with JWT</Badge>{" "}
             <Badge variant="dark">Github</Badge>
+            <hr />
           </div>
         </div>
         <p className="Lead text-justify ">
-          I am Full Stack Web Developer, detail oriented ,organized and a
+          I am a Full Stack Web Developer, detail-oriented, organized and a
           problem solver. An ardent follower of technology. I am always
           available to discuss projects that might be of interest to you and may
           need assistance in. These Days I am interested in learning to design,
@@ -47,7 +48,7 @@ const AboutMe = () => (
           </button>
         </Link>
         <Link href="/static/files/BafanaMahambaCV.pdf">
-          <button type="button"  className="btn btn-success mr-2 active">
+          <button type="button" className="btn btn-success mr-2 active">
             Download CV
           </button>
         </Link>

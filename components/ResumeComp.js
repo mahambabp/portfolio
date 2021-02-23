@@ -96,7 +96,7 @@ const ResumeComp = () => (
             <h4>Certificates</h4>
             <ul className="list-group">
               <li className="list-group-item">
-                Full Stack Web Development - <em>HyperionDev</em>-2020-Current
+                Full Stack Web Development - <em>HyperionDev</em>-2020-2021
               </li>
               <li className="list-group-item">
                 Project Management Fundamentals -{" "}
