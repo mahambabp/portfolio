@@ -5,11 +5,11 @@ import HomeIcon from "@material-ui/icons/Home";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand navbar-dark bg-dark mb-4 text-success">
-    <div  className="container">
+    <div className="container">
       <Link link href="/">
-      <a className="navbar-brand text-success" >
+        <a className="navbar-brand text-success">
           <HomeIcon />
-      </a>
+        </a>
       </Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
@@ -31,6 +31,11 @@ const Navbar = () => (
           <li className="nav-item">
             <Link href="/contact">
               <a className="nav-link  text-success">Contact</a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="https://bafanarelated.blogspot.com/">
+              <a className="nav-link  text-success">My Blogs</a>
             </Link>
           </li>
         </ul>
