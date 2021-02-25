@@ -4,11 +4,13 @@ import { Accordion, Card, Button, Badge } from "react-bootstrap"
 //CV component 
 const ResumeComp = () => (
   <div className="container ">
-    <h2 className="display-5 text-dark shadow p-3  bg-white rounded">Resume</h2>
+    <h2 className="display-5 text-success shadow p-3 mb-3 bg-light rounded">
+      Resume
+    </h2>
     <Accordion>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+          <Accordion.Toggle as={Button} variant="success" eventKey="0">
             PROFESSIONAL SUMMARY
           </Accordion.Toggle>
         </Card.Header>
@@ -25,7 +27,7 @@ const ResumeComp = () => (
       </Card>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <Accordion.Toggle as={Button} variant="success" eventKey="1">
             SKILLS
           </Accordion.Toggle>
         </Card.Header>
@@ -64,7 +66,7 @@ const ResumeComp = () => (
     <Accordion>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+          <Accordion.Toggle as={Button} variant="success" eventKey="0">
             WORK HISTORY
           </Accordion.Toggle>
         </Card.Header>
@@ -87,7 +89,7 @@ const ResumeComp = () => (
       </Card>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <Accordion.Toggle as={Button} variant="success" eventKey="1">
             EDUCATION
           </Accordion.Toggle>
         </Card.Header>

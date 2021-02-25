@@ -1,47 +1,51 @@
-import Link from "next/link";
+import React, { useState } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  NavbarText,
+} from "reactstrap";
 import HomeIcon from "@material-ui/icons/Home";
 
-//Header component that aids a user in navigating the page
+const NavBar = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-const Navbar = () => (
-  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4 text-success">
-    <div className="container">
-      <Link link href="/">
-        <a className="navbar-brand text-success">
-          <HomeIcon />
-        </a>
-      </Link>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link href="/about">
-              <a className="nav-link  text-success ">About</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/projects">
-              <a className="nav-link  text-success">Projects</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/resume">
-              <a className="nav-link  text-success">Resume</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/contact">
-              <a className="nav-link  text-success">Contact</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="https://bafanarelated.blogspot.com/">
-              <a className="nav-link  text-success">My Blogs</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div className="mb-2">
+      <Navbar className="bg-secondary" color="light" light expand="md">
+        <NavbarBrand href="/">
+          <HomeIcon className=" text-success"    />
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem >
+              <NavLink href="/about" className=" text-success" >About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/projects" className=" text-success" >Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/resume" className=" text-success" >Resume</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="https://bafanarelated.blogspot.com/" className=" text-success" >Blog</NavLink>
+            </NavItem>
+          </Nav>
+          <NavbarText className="text-left">
+            <NavLink href="/contact" className=" text-success mr-6" id="contact">Contact</NavLink>
+          </NavbarText>
+        </Collapse>
+      </Navbar>
+
     </div>
-  </nav>
-);
+  );
+};
 
-export default Navbar;
+export default NavBar;

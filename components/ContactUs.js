@@ -32,7 +32,7 @@ export default function ContactUs() {
 
   return (
     <div className="container-fluid">
-      <h2 className="display-5 text-secondary shadow p-3  bg-secondary rounded">
+      <h2 className="display-5 text-success shadow p-3  bg-light rounded">
         Contact Me
       </h2>
       <Container>
@@ -75,13 +75,10 @@ export default function ContactUs() {
                       placeholder="Your message"
                       name="message"
                     ></textarea>
-                  
-                      <Button
-                        type="submit"
-                        variant="success"
-                        className="mt-2"
-                      >Send Message</Button>
 
+                    <Button type="submit" variant="success" className="mt-2">
+                      Send Message
+                    </Button>
                   </div>
                 </div>
               </Form>
